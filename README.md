@@ -12,7 +12,7 @@ For latency sensitive apps, having a local load balancer is at least one hop bet
 
 ## But wait, there's more...
 
-You configuration can stay extremely simple since each "service" is available via localhost at a configured port.  Machines and assignments change, but your config can stay the same.
+You configuration can stay extremely simple since each "service" is available via $HOST at a configured port.  Machines and assignments change, but your config can stay the same.
 
 ## How does it work?
 
