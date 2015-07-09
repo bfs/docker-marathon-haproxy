@@ -7,6 +7,8 @@ if [ -z $MARATHON_HOST ]; then
   exit 1
 fi
 
+env
+
 while true
 do
   scripts/haproxy-marathon-bridge refresh_system_haproxy $MARATHON_HOST
